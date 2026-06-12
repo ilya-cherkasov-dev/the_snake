@@ -42,7 +42,7 @@ pg.display.set_caption('Змейка')
 clock = pg.time.Clock()
 
 
-# Тут опишите все классы игры.
+# Классы игры:
 class GameObject:
     """Базовый класс игрового объекта."""
 
