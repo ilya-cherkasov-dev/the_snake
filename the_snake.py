@@ -46,11 +46,11 @@ clock = pg.time.Clock()
 class GameObject:
     """Базовый класс игрового объекта."""
 
-    def __init__(self, body_color=None):
+    def __init__(self, body_color=None, border_color=BORDER_COLOR):
         """Задаёт начальную позицию и цвет."""
         self.position = CENTER
         self.body_color = body_color
-        self.border_color = BORDER_COLOR
+        self.border_color = border_color
 
     def draw_cell(self, position):
         """Отрисовывает одну ячейку сетки."""
